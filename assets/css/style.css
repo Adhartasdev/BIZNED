@@ -1,3 +1,5 @@
+
+/* NAVBAR */
 #bold-brand {
     font-family: Lato;
     font-weight: 800;
@@ -12,23 +14,22 @@
     color: #102137;
 }
 
-.clear-bottom{
-    Margin-bottom: 20px;
-}
 
 .padding-nav {
-    margin-right: 20px;
-    margin-left: 20;
+    margin-bottom: 50px;
     padding-bottom: 25px;
+    background-color: white;
+    
 }
 
 .section-layout{
-    padding-top: 100px;
     padding-bottom: 100px;
 }
 
-.footer-crest {
-    background-color: #162438;
+/* Footer */
+
+.footer-ned {
+    background-color: #102137;
     color: white;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -36,8 +37,9 @@
     padding-right:15px;
 }
 
-.icon-crest {
+.icon-ned {
     margin-right: 15px;
+    margin-left: 5px;
 }
 .fa-linkedin-in {
     color:white;
@@ -45,3 +47,27 @@
 .fa-instagram {
     color: white;
 }
+/* Hero Image Start index.html*/
+
+.heroBizned {
+    padding-top: 25vh;
+    padding-bottom: 100px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.9)), url("/workspace/BIZNED/assets/images/Zuidas Night.jpg");
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.heroContents {
+	text-align: center;
+	color: white;
+}
+.bookButton {
+  background-color: rgb(255, 255, 255);
+  border: none;
+  color:#102137;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
