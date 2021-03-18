@@ -104,3 +104,12 @@
 .margin-button-submit {
     margin-bottom: 100px;
 }
+
+
+/* Maps */
+
+#map {
+  height: 400px;
+  width: 60%;
+
+}

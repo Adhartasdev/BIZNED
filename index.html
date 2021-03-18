@@ -85,11 +85,7 @@
             </div>
         </div>
     </section>
-    <section class="section-layout container-fluid">
-        <div id="map">
-        </div>
-    </section>
-   
+
     <!-- ----------------------------------------------------------------------- Ratings -->
     <section class="section-layout">
         <div class="container-fluid heroBizned-2 col-12">
@@ -101,12 +97,13 @@
         </div>
     </section>
     <!-- ----------------------------------------------------------------------- City Cards -->
- <section id="temporary-spacer">
+    <section id="temporary-spacer">
         <div class="container">
             <div class="row">
                 <div class="col-sm">
                     <div class="card" style="width: 18rem;">
-                        <img src="/workspace/BIZNED/assets/images/Amsterdam.jpg" class="card-img-top" alt="Amsterdam ITO business">
+                        <img src="/workspace/BIZNED/assets/images/Amsterdam.jpg" class="card-img-top"
+                            alt="Amsterdam ITO business">
                         <div class="card-body">
                             <h5 class="card-title">Amsterdam</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -124,7 +121,8 @@
                 </div>
                 <div class="col-sm">
                     <div class="card" style="width: 18rem;">
-                        <img src="/workspace/BIZNED/assets/images/Rotterdam.jpg" class="card-img-top" alt="Rotterdam City View">
+                        <img src="/workspace/BIZNED/assets/images/Rotterdam.jpg" class="card-img-top"
+                            alt="Rotterdam City View">
                         <div class="card-body">
                             <h5 class="card-title">Rotterdam</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -142,7 +140,8 @@
                 </div>
                 <div class="col-sm">
                     <div class="card" style="width: 18rem;">
-                        <img src="/workspace/BIZNED/assets/images/The hague.jpg" class="card-img-top" alt="The Hague city view">
+                        <img src="/workspace/BIZNED/assets/images/The hague.jpg" class="card-img-top"
+                            alt="The Hague city view">
                         <div class="card-body">
                             <h5 class="card-title">The Hague</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -161,6 +160,13 @@
             </div>
         </div>
     </section>
+
+    <section class="section-layout container-fluid center">
+        <h3>Find your Business Facilities</h3>
+        <div id="map"></div>
+
+    </section>
+
     <!-- ----------------------------------------------------------------This is the Contact Form -->
     <section>
         <div class="container mx-auto">
@@ -226,6 +232,27 @@
             </div>
         </div>
     </footer>
+    <script>
+        function initMap() {
+            const amsterdam = { lat: 52.074373610390026, lng: 4.3049510399249336 };
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 4,
+                center: amsterdam,
+            });
+            const marker = new google.maps.Marker({
+                position: amsterdam,
+                map: map,
+            });
+        }
+    </script>
+    <script>
+        var APIKey = "AIzaSyBQsDZOh8pjp9Xr9HuW7gxJw-2aJIQW4vI";
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQsDZOh8pjp9Xr9HuW7gxJw-2aJIQW4vI&callback=initMap&libraries=&v=weekly"async>
+    </script>
+   
+
 </body>
 
 </html>
