@@ -14,10 +14,10 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,400;1,700&family=Roboto:wght@400;500;700&display=swap"
         rel="stylesheet">
-    <script src="https://use.fontawesome.com/7bae7d911c.js"></script>
+    <script src="https://kit.fontawesome.com/833e946b0f.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js"
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <script src="JS/api.js"></script>
+    <script src="/workspace/BIZNED/JS/maps api.js"></script>
     <script src="JS/main.js"></script>
     <title>BIZNED</title>
 </head>
@@ -41,21 +41,30 @@
                             <a class="nav-link" href="#">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#">Explore Cities</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="btn btn-primary btn-m active override-color" role="button"
+                                aria-pressed="true">Contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </Header>
-    <!-- ----------------------------------------------------------------------- Hero Intro -->
+    <!-- ------------------------------------------------------------------------- Hero Intro -->
     <section class="section-layout">
         <div class="container-fluid heroBizned col-12">
             <div class="row heroContents">
                 <h1>BIZNED</h1>
-                <p>Your Dutch business trip information platform</p>
-                <a href="#"><button class="bookButton">Trip ideas</button></a>
+                <p>YOUR DUTCH BUSINESS TRIP INFORMATION PLATFORM</p>
+                <div class="button-box">
+                    <a href="#" class="btn btn-primary btn-lg active btn-about" role="button" aria-pressed="true">About</a>
+                    <a href="#" class="btn btn-primary btn-lg active btn-explore" role="button" aria-pressed="true">Explore Cities</a>
+                    </div>
+                </div>
             </div>
+        </div>
         </div>
     </section>
     <!-- ----------------------------------------------------------------------- Small about intro -->
@@ -97,7 +106,7 @@
         </div>
     </section>
     <!-- ----------------------------------------------------------------------- City Cards -->
-    <section id="temporary-spacer">
+    <section id="card-spacer">
         <div class="container">
             <div class="row">
                 <div class="col-sm">
@@ -162,8 +171,13 @@
     </section>
 
     <section class="section-layout container-fluid">
-        <h3>Find your Business Facilities</h3>
+        <h3>The Hague</h3>
         <div id="map"></div>
+
+    </section>
+    <section class="section-layout container-fluid">
+        <h3>Amsterdam</h3>
+        <div id="map-2"></div>
 
     </section>
 
@@ -217,7 +231,6 @@
     </section>
     <!-- ----------------------------------------------------------------------- This is the Footer -->
     <footer>
-
         <div class="container-fluid footer-ned">
             <div class="row">
                 <div class="col-8">
@@ -232,26 +245,16 @@
             </div>
         </div>
     </footer>
-    <script>
-        function initMap() {
-            const amsterdam = { lat: 52.074373610390026, lng: 4.3049510399249336 };
-            const map = new google.maps.Map(document.getElementById("map"), {
-                zoom: 4,
-                center: amsterdam,
-            });
-            const marker = new google.maps.Marker({
-                position: amsterdam,
-                map: map,
-            });
-        }
-    </script>
+
     <script>
         var APIKey = "AIzaSyBQsDZOh8pjp9Xr9HuW7gxJw-2aJIQW4vI";
     </script>
 
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQsDZOh8pjp9Xr9HuW7gxJw-2aJIQW4vI&callback=initMap&libraries=&v=weekly"async>
-    </script>
-   
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQsDZOh8pjp9Xr9HuW7gxJw-2aJIQW4vI&callback=initMap&libraries=&v=weekly"
+        async>
+        </script>
+
 
 </body>
 
