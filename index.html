@@ -19,6 +19,12 @@
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="/workspace/BIZNED/JS/maps api.js"></script>
     <script src="JS/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_7r3v8J04ZvKYp1MJJKb0p");
+        })();
+    </script>
     <title>BIZNED</title>
 </head>
 
@@ -341,22 +347,20 @@
                     <h1>Contact us</h1>
                     <p> Please reach out to us for any inquiries you might have regarding BIZNED</p>
                 </div>
-                <div class="row g-3 mx-auto" style="width: 80%;">
+                <form onsubmit="return sendMail(this);" class="row g-3 mx-auto" style="width: 80%;" id="contactino" >
                     <div class="col">
                         <label for="Firstname" class="form-label">First Name</label>
-                        <input type="text" class="form-control" id="Firstname" placeholder="First name"
+                        <input type="text" name="firstname" class="form-control" id="Firstname" placeholder="First name"
                             aria-label="First name">
                     </div>
                     <div class="col">
                         <label for="Lastname" class="form-label">Last Name</label>
-                        <input type="text" class="form-control" id="Lastname" placeholder="Last name"
+                        <input type="text" name="lastname" class="form-control" id="Lastname" placeholder="Last name"
                             aria-label="Last name">
                     </div>
-                </div>
-                <form class="row g-3 mx-auto" style="width: 80%;">
                     <div class="col-md-6">
                         <label for="inputEmail4" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="inputEmail4" placeholder="email@xyz.com">
+                        <input type="email" name="emailaddress" class="form-control" id="inputEmail4" placeholder="email@xyz.com">
                     </div>
                     <div class="col-6">
                         <label for="inputAddress" class="form-label">Address</label>
@@ -371,17 +375,17 @@
                         <input type="text" class="form-control" id="inputZip">
                     </div>
                     <div class="mb-3">
-                    <label class="form-label">Your Destination</label>
-                    <select class="form-control">
-                        <option>Click here to choose your city of interest...</option>
-                        <option>Amsterdam</option>
-                        <option>Rotterdam</option>
-                        <option>The Hague</option>
-                    </select>
+                        <label class="form-label">Your Destination</label>
+                        <select class="form-control">
+                            <option>Click here to choose your city of interest...</option>
+                            <option>Amsterdam</option>
+                            <option>Rotterdam</option>
+                            <option>The Hague</option>
+                        </select>
                     </div>
                     <div class="mb-3">
                         <label for="Text-Area-One" class="form-label">Your Message</label>
-                        <textarea class="form-control" id="Text-Area-One" rows="3"></textarea>
+                        <textarea class="form-control" name="messagesummary" id="Text-Area-One" rows="3"></textarea>
                     </div>
                     <div class="col-12">
                         <button type="submit" class="btn btn-primary margin-button-submit submit-style">Submit
@@ -407,7 +411,7 @@
             </div>
         </div>
     </footer>
-
+    <script src="/workspace/BIZNED/JS/email.js"></script>
     <script>
         var APIKey = "AIzaSyBQsDZOh8pjp9Xr9HuW7gxJw-2aJIQW4vI";
     </script>
