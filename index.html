@@ -30,10 +30,10 @@
 
 <body>
     <!------------------------------------------- Navbar is Bootstrap component-->
-    <Header>
+    <Header id="top-page">
         <nav class="navbar navbar-expand-lg navbar-light fixed-top padding-nav shadow-sm">
             <div class="container-fluid">
-                <a class="navbar-brand bold-brand" id="bold-brand" href="#">BIZNED</a>
+                <a class="navbar-brand bold-brand" id="bold-brand" href="#top-page">BIZNED</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -41,7 +41,7 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active navlink-kick" aria-current="page" href="home-top">Home</a>
+                            <a class="nav-link active navlink-kick" aria-current="page" href="#top-page">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#about-anchor">About</a>
@@ -325,14 +325,9 @@
         </div>
     </section>
 
-    <section class="section-layout container-fluid">
+    <section class="section-layout container-fluid text-center">
         <h3>The Hague</h3>
-        <div id="map"></div>
-
-    </section>
-    <section class="section-layout container-fluid">
-        <h3>Amsterdam</h3>
-        <div id="map-2"></div>
+        <div id="map" class="center"></div>
 
     </section>
 
@@ -413,11 +408,10 @@
     <script>
         var APIKey = "AIzaSyBQsDZOh8pjp9Xr9HuW7gxJw-2aJIQW4vI";
     </script>
-
     <script
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQsDZOh8pjp9Xr9HuW7gxJw-2aJIQW4vI&callback=initMap&libraries=&v=weekly"
         async>
-        </script>
+     </script>
 
 
 </body>

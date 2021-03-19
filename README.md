@@ -151,7 +151,7 @@ The dark blue has been chosen, as it is a favorite color of the developer and al
 
 ### Display testing 
 
-The site has been tested across different devices and displays to verify and ensure good responsiveness. Fortunately, it passed all tests and the test users were able to navigate properly on all of them. Below are listed the displays and devices tested on:
+The site has been tested across different devices and displays to verify and ensure good responsiveness. Unfortunately, it passed all tests, but not the perfect mobile responsiveness. The test users were able to navigate properly on all large devices, such as tablet and above. Below are listed the displays and devices tested on:
 
 * 13" Macbook pro display 
 * 15"Macbook pro display 
@@ -169,8 +169,8 @@ The site renders well on both Chrome and Safari. Test Users were asked to load a
 The site has been tested by 3 Users:
 
 * Developer, male, aged 24.
-* Hotel management expert, female, aged 24.
-* Financial management and real estate student, male, aged 19.
+* Potential Partner of BIZNED, female, aged 24.
+* Web visitor, male, aged 19.
 
 ### General Questions to Test Users & Developer:
 
@@ -192,19 +192,8 @@ The site has been tested by 3 Users:
 
 | Issues spoted by Users & Developer         | Fix         |
 | ----------- | ----------- |
-| Navbar button returned negative by validator      | Issue fixed by using a proper bootsrap element role=button. **Resolved.**       |
-| Users found it confusing to have contact form on each page   | Removed the contact forms from all pages except the contact page **Resolved.**  |
-| No placeholder text was found after deployment in the contact form email section  | corrected by adding placeholder text **Resolved.**  |
-| Buttons on home page did not link the read more to another page | added href and implemented bootstrap buttons to all **Resolved.**  |
-
-
-### Specific Test User UX response:
-
-* **Hotel management expert, female, aged 24**:
-She stated that as a real estate professional she perfectly understood the range of services that the site offered and that it was logical for her to both navigate and understand the different pages on the website. In addition, she stated that the contact form should not be placed on each website, just as the Developer’s mentor. So that was corrected. 
-
-* **Financial management and Real Estate student, male, aged 19**:
-He stated that the website was clear and intuitive in its details. He suggested that further developments, including a portfolio would be a plus. However, the purpose of the website is clearly demonstrated and inspires confidence in the business at hand. He admitted that as an investor this would demonstrate performance and that the website has proper CTAs.
+| Divs were in surpplus | Leaned out the code and removed the divs indicated by the validator |
+| js files not linked properly | Linked them with the help of error spotting from the markup validator|
 
 
 ## Deployment
@@ -230,3 +219,4 @@ The Photos used in this website were obtained from unsplash and the credits are 
 - [Photo by Rik van der Kroon on Unsplash](https://unsplash.com/photos/ER0Hu38XpLQ)
 - [Photo by MANIKYAM Mahi on Unsplash](https://unsplash.com/photos/E55Rwc47mnk)
 - [Photo by Frédéric Paulussen on Unsplash](https://unsplash.com/photos/XHk0Se67H14)
+- [Free wallpaper obtained from here...](https://www.wallpaperflare.com/search?wallpaper=zuidas)
