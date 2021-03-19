@@ -137,7 +137,7 @@
 .heroBizned-2 {
     padding-top: 15vh;
     padding-bottom: 100px;
-    background: linear-gradient(rgba(17, 11, 49, 0.5), rgba(8, 0, 22, 0.9)), url("/workspace/BIZNED/assets/images/Schiphol-Airport.jpg");
+    background: linear-gradient(rgba(17, 11, 49, 0.5), rgba(8, 0, 22, 0.9)), url("https://adhartasdev.github.io/BIZNED/assets/images/Schiphol-Airport.jpg");
 	height: 50%;
 	background-position: center;
 	background-repeat: no-repeat;
