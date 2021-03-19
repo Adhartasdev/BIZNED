@@ -102,6 +102,7 @@ The dark blue has been chosen, as it is a favorite color of the developer and al
  * A boooking section 
  * An API with flexible office options
  * More html pages for about, exploring guidelines and perhaps F.A.Q.
+ * blog implementation
 
 
 ### Minor features
@@ -122,17 +123,24 @@ The dark blue has been chosen, as it is a favorite color of the developer and al
 1. [Bootstrap v5.0.0-beta1 :](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
 1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Montserrat' & 'Roboto' font into the style.css file which are used on all pages throughout the project.
+    - Google fonts were used to import the 'Lato' & 'Roboto' font into the style.css file which are used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 1. [jQuery:](https://jquery.com/)
-    - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
+    - The project uses JQuery to simplify DOM manipulation.
+    - jQuery also came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
 1. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+1. [Google Maps API](https://developers.google.com/maps/documentation/javascript/overview) 
+    - The BIZNED platform uses the google maps api to generate interactive maps with markers.
+1. [Google Places API](https://developers.google.com/places/web-service/overview) 
+    - The BIZNED platform uses the google places api to get acces to place ID's and obtain relevant geo-information on BIZNED recommended places.
+1. [Email JS](https://www.emailjs.com/) 
+- the api of email js enables users to communicate with the BIZNED team. 
 
 ## Testing
 
