@@ -140,7 +140,7 @@ The dark blue has been chosen, as it is a favorite color of the developer and al
 1. [Google Places API](https://developers.google.com/places/web-service/overview) 
     - The BIZNED platform uses the google places api to get acces to place ID's and obtain relevant geo-information on BIZNED recommended places.
 1. [Email JS](https://www.emailjs.com/) 
-- the api of email js enables users to communicate with the BIZNED team. 
+    - the api of email js enables users to communicate with the BIZNED team. 
 
 ## Testing
 
