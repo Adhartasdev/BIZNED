@@ -208,7 +208,7 @@ He stated that the website was clear and intuitive in its details. He suggested 
 
 
 ## Deployment
-This site has been deployed using Github pages, the last version is to be found here: [BIZNED]()
+This site has been deployed using Github pages, the last version is to be found here: [BIZNED]( https://adhartasdev.github.io/BIZNED/)
 
 It has been deployed multiple times using the same version link above and has no local deployment available, as this was not necessary for the assignment. 
 
