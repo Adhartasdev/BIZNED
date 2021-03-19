@@ -129,17 +129,17 @@ The dark blue has been chosen, as it is a favorite color of the developer and al
 1. [jQuery:](https://jquery.com/)
     - The project uses JQuery to simplify DOM manipulation.
     - jQuery also came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
-1. [Git](https://git-scm.com/)
+1. [Git:](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
-1. [Google Maps API](https://developers.google.com/maps/documentation/javascript/overview) 
+1. [Google Maps API:](https://developers.google.com/maps/documentation/javascript/overview) 
     - The BIZNED platform uses the google maps api to generate interactive maps with markers.
-1. [Google Places API](https://developers.google.com/places/web-service/overview) 
+1. [Google Places API:](https://developers.google.com/places/web-service/overview) 
     - The BIZNED platform uses the google places api to get acces to place ID's and obtain relevant geo-information on BIZNED recommended places.
-1. [Email JS](https://www.emailjs.com/) 
+1. [Email JS:](https://www.emailjs.com/) 
     - the api of email js enables users to communicate with the BIZNED team. 
 
 ## Testing
@@ -214,7 +214,7 @@ It has been deployed multiple times using the same version link above and has no
 
 ## Credits
 
--  Bootstrap full-width hero section with text and image [GitHub Gist - Adam de Haven](https://gist.github.com/adamdehaven/dceabb07450295fec6fc)
+-  Newsletter subscripition form was made with the help of a snippet from [mtechweb](https://bootsnipp.com/snippets/eoXRa)
 
 -  [Bootstrap5](https://getbootstrap.com/docs/5.0/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
  
@@ -224,3 +224,9 @@ It has been deployed multiple times using the same version link above and has no
 
 ### Media
 The Photos used in this website were obtained from unsplash and the credits are listen below:
+- [Photo by Miles Vanderlooven on Unsplash](https://unsplash.com/photos/t-j22ysiAL8)
+- [Photo by Ronnie Overgoor on Unsplash](https://unsplash.com/photos/HSrolwkbBC0)
+- [Photo by Isaac Mehegan on Unsplash](https://unsplash.com/photos/_AlklFDRcLA)
+- [Photo by Rik van der Kroon on Unsplash](https://unsplash.com/photos/ER0Hu38XpLQ)
+- [Photo by MANIKYAM Mahi on Unsplash](https://unsplash.com/photos/E55Rwc47mnk)
+- [Photo by Frédéric Paulussen on Unsplash](https://unsplash.com/photos/XHk0Se67H14)
