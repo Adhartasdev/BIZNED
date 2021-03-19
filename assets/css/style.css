@@ -237,6 +237,24 @@
     margin-bottom: 100px;
 }
 
+
+
+
+/*Contact form */
+.submit-style{
+    background-color: #102137!important;
+    color: white!important;
+    font-family: Roboto!important;
+    font-size: 18px!important;
+    font-weight: 400!important;
+    border-color: white!important;
+}
+
+.contact-title {
+    text-align: left;
+    margin-left: 10%;
+}
+
 /* Footer */
 
 .footer-ned {

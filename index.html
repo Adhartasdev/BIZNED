@@ -337,9 +337,9 @@
     <section>
         <div class="container mx-auto">
             <div class="row">
-                <div class="col-12 contact-title text-center">
+                <div class="col-12 contact-title">
                     <h1>Contact us</h1>
-                    <p>Please reach out to us for any inquiries you might have regarding BIZNED</p>
+                    <p> Please reach out to us for any inquiries you might have regarding BIZNED</p>
                 </div>
                 <div class="row g-3 mx-auto" style="width: 80%;">
                     <div class="col">
@@ -371,11 +371,21 @@
                         <input type="text" class="form-control" id="inputZip">
                     </div>
                     <div class="mb-3">
+                    <label class="form-label">Your Destination</label>
+                    <select class="form-control">
+                        <option>Click here to choose your city of interest...</option>
+                        <option>Amsterdam</option>
+                        <option>Rotterdam</option>
+                        <option>The Hague</option>
+                    </select>
+                    </div>
+                    <div class="mb-3">
                         <label for="Text-Area-One" class="form-label">Your Message</label>
                         <textarea class="form-control" id="Text-Area-One" rows="3"></textarea>
                     </div>
                     <div class="col-12">
-                        <button type="submit" class="btn btn-primary margin-button-submit">Submit Message</button>
+                        <button type="submit" class="btn btn-primary margin-button-submit submit-style">Submit
+                            Message</button>
                     </div>
                 </form>
             </div>
