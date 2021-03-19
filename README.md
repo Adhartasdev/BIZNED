@@ -99,7 +99,7 @@ The dark blue has been chosen, as it is a favorite color of the developer and al
 
 ### Major features 
  * A partner page 
- * A boooking section 
+ * A booking section 
  * An API with flexible office options
  * More html pages for about, exploring guidelines and perhaps F.A.Q.
  * blog implementation
