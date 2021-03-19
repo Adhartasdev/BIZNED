@@ -43,32 +43,39 @@ There are three different users of the website:
 ### User Stories
 
 As a business traveller, I want:
-* User Story
+* As a business traveller, I want to be able to see the different locations per cities that are recommended and which ones suit my needs. 
+* As a business traveller, I want to have insight on transport hubs, so that I may plan my logistics properly.
+* As a business traveller, I want to be able to contact BIZNED and send them an email with my requests. 
+* As a business traveller, I want to navigate a logical website in a quick and seamless fashion.  
 
-As a partner, I want:
-*  User Story
+As a potential partner, I want:
+* I want to have insights on the partners already displayed on the platform. 
+* I want to see an official website that demonstrates professionalism and shows etiquette. 
+* I want to be able to properly contact BIZNED. 
 
 As a visitor, I want:
-*  User Story  
+*  I want to see a clear navigation structure.
+*  I want to see relevant content.
+*  I want to be able to contact BIZNED or to follow them on social media.
 
 ### Design Choices
 
 #### Fonts
 
-* The primary font is  
-* The second font is 
+* The primary font is Lato. It is a beautiful and user-appreciated font. At the same time, it is also enables to generate nice titles and if styled correctly mini-logos. [Click here to see font on google.](https://fonts.google.com/specimen/Lato?preview.text_type=custom#standard-styles)
+* The second font is Roboto, the latter used for smaller casings such as <p>'s throughout the project and pairs well with Lato. It displays the same round and easy-going aspect that users might feel more comfortable reading. [Click here to see font on google.](https://fonts.google.com/specimen/Roboto?preview.text_type=custom&query=roboto)
 
 #### Icons
-* All Icons in this project have been associated with their obvious meaning. 
+* All Icons in this project have been associated with their obvious meaning such as certificates, hotels and bikes (typical of the Netherlands).
 
 #### Colours
 
-The general website's colors are white and blue. Bellow some specifics:
-* Button colours:
-* Footer Colour:
-* Text: 
-* Backgrounds (non-image): 
+The general website's colors are white and dark blue. Bellow some specifics:
+* Button colours: #102137 with white text.
+* Footer Colour: #102137 with white icons and text.
+* Text: Black and #102137.
 
+The dark blue has been chosen, as it is a favorite color of the developer and also, as it is a color that inspires trust in the conservative business world. 
 
 ### Wireframes
 
