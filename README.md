@@ -1,56 +1,54 @@
 # BIZNED
 
+Welcome to the BIZNED platform. The platform has been developed as an information point for business travelers passing through The Netherlands. It is within this platform, that they can find key business/trip facilities recommended by the business community.
+
 ## UX
  
 ### Project Goals
 
+The goals of this project are to develop a platform that shows a good foundation for a business travel platform. On this platform, elements such as flexible desks, hotels and world trade centers can be found. Furthermore, an overview and location of major transport hubs are given to business travellers. The platform is developed in English, but could eventually be translated on a later stage.
+
 There are three different users of the website: 
 
-* User A
-* User B
-* User C
+* International and National Business Travellers.
+* Potential Partners for platform recommendations (hotels, work centres etc.)
+* Random visitors living in these cities.
 
-#### User A Goals
+#### International and National Business Travellers Goals:
 
-User A goals are:
+* To find necessary business facilities across three key cities.
+* To plan their trip with the official information displayed.
+* To have insights on the best logistical plans and transport hub proximities. 
 
-* Goal 1
-* Goal 2
-* Goal 3
+#### Potential Partners Goals:
 
-#### User B Goals
+* To see their competition and how they are advertised as trusted partners on the platform.
+* To feel the "community feeling" that attracts recurring travellers to take advice. 
+* To be able to reach out and structure a deal with BIZNED.
 
-User B goals are:
+#### Random web visitors goals:
 
-* Goal 1
-* Goal 2
-* Goal 3
 
-#### User C Goals
-
-User C goals are:
-
-* Goal 1
-* Goal 2
-* Goal 3
+* To obtain relevant information concerning the BIZNED community and its activities, offering and search tools.
+* To obtain relevent information concerning the three key cities displayed. 
+* To live a good web visitor's experience. 
 
 
 ### Developer & Business Goals
 
-* Developer goal 1 
-* Developer goal 2
-* Business goal 1
-* Business goal 2
+* The developer wishes to develop a functional website capable of converting traffic into users or partners by using a combination of HTML, CSS and JS languages. 
+* The business aims at growing its current parnter and user base, which will enable them to expand to other cities and market other potential business eco-systems to users. 
+
 
 ### User Stories
 
-As a user A, I want:
+As a business traveller, I want:
 * User Story
 
-As a user B, I want:
+As a partner, I want:
 *  User Story
 
-As a user C, I want:
+As a visitor, I want:
 *  User Story  
 
 ### Design Choices
