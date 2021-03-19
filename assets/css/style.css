@@ -45,7 +45,7 @@
 /* Hero Image Start index.html*/
 
 .heroBizned {
-    padding-top: 25vh;
+    padding-top: 35vh;
     padding-bottom: 100px;
     background: linear-gradient(rgba(17, 11, 49, 0.5), rgba(8, 0, 22, 0.9)), url("/workspace/BIZNED/assets/images/Zuidas Night.jpg");
 	height: 50%;
@@ -139,11 +139,51 @@ btn-explore
 .heroBizned-2 {
     padding-top: 15vh;
     padding-bottom: 100px;
-    background: linear-gradient(rgba(17, 11, 49, 0.5), rgba(8, 0, 22, 0.9)), url("/workspace/BIZNED/assets/images/business-cta.jpg");
+    background: linear-gradient(rgba(17, 11, 49, 0.5), rgba(8, 0, 22, 0.9)), url("/workspace/BIZNED/assets/images/Schiphol-Airport.jpg");
 	height: 50%;
 	background-position: center;
 	background-repeat: no-repeat;
 	position: relative;
+}
+.heroContents-2{
+    color: white;
+    margin-bottom: 20px;
+    font-family: Lato;
+    font-weight: 600;
+    
+}
+
+.btn-subscribe {
+    font-weight: 900!important;
+    font-family: Roboto!important;
+    font-size: 18px !important;
+}
+/*Code credit to: https://bootsnipp.com/snippets/eoXRa - mtechweb */
+
+.home-newsletter .single {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2; }
+.home-newsletter .single h2 {
+    font-size: 22px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 40px; }
+.home-newsletter .single .form-control {
+    height: 50px;
+    background: white;
+    border-color: transparent;
+    border-radius: 20px 0 0 20px; }
+.home-newsletter .single .form-control:focus {
+    box-shadow: none;
+    border-color: #102137; }
+.home-newsletter .single .btn {
+    min-height: 50px; 
+    border-radius: 0 20px 20px 0;
+    background: #102137;
+    color: #fff;
 }
 
 .special-p {
