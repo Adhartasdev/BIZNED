@@ -86,18 +86,28 @@ The dark blue has been chosen, as it is a favorite color of the developer and al
 ## Features
 
  ### index.html
- ### about.html
- ### services.html
- ### contact.html
-
+* Navigation bar with anchor tags, logo and contact button.
+* Hero intro image section with anchor tag to either about or explore. 
+* About section with accordion of potential facilities and a call to action card with cities featured and anchor tag. 
+* Hero section with newsletter subscription input (non-active).
+* Bootstrap component with 3 city cards representing Amsterdam, Rotterdam and The Hague, with their respective JS aciton buttons.
+* Map display with facilities per city cards. (not implemented due to delays in development)
+* Contact form powered by mail.js
+* Footer with rights reserved and social icons with respective _blank links. 
 
  ## Future features to implement:
 
 ### Major features 
- 
+ * A partner page 
+ * A boooking section 
+ * An API with flexible office options
+ * More html pages for about, exploring guidelines and perhaps F.A.Q.
+
 
 ### Minor features
-
+*  Updated images
+*  Map styling
+*  Privacy policy
 
 ## Technologies Used
 
