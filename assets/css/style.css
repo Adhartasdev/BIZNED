@@ -100,6 +100,33 @@
 }
 btn-explore
 
+/* About Section*/
+
+.about-container{
+    font-family: Roboto;
+}
+
+.about-container h1{
+    font-family: Lato;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.left-container {
+    padding-right: 100px!important;
+}
+.left-container p {
+    font-family: Roboto!important;
+}
+
+.accordion-button{
+    color:#102137 !important;
+    font-family: Lato !important;
+    font-weight: bold;
+}
+
+.accordion {
+    margin-top:25px;
+}
 /* Find your business facilities section.html*/
 
 .img-limited {
@@ -124,7 +151,28 @@ btn-explore
     font-weight: 600;
 }
 
+.card-score {
+    margin-bottom: 75px;
 
+}
+#score-card {
+    background-color: #102137 !important;
+    margin-top: 15px;
+}
+
+.amazing-card {
+    box-shadow: 2px 2px 2px 1px rgba(145, 144, 144, 0.1);
+   }
+
+.list-group-item{
+    font-family: Roboto;
+    font-weight: 800;
+}
+
+.Our-cities-title{
+    font-family: Lato;
+    font-weight: 700;
+}
 /* City-cards*/
 #card-spacer {
     margin-bottom:100px;
