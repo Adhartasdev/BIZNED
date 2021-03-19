@@ -98,7 +98,7 @@
     border-color: #102137!important;
 
 }
-btn-explore
+
 
 /* About Section*/
 
@@ -132,7 +132,7 @@ btn-explore
 .img-limited {
     height: 250px;
     length: 200px;
-    margin-right: 5%;
+    
     margin-top: 20px;
 }
 
@@ -202,6 +202,7 @@ btn-explore
 
 .amazing-card {
     box-shadow: 2px 2px 2px 1px rgba(145, 144, 144, 0.1);
+    margin-bottom:10px;
    }
 
 .list-group-item{
@@ -256,4 +257,9 @@ btn-explore
 }
 .fa-instagram {
     color: white;
+}
+
+.mobile-spacer{
+    margin-right: 5%;
+    margin-left: 5%;
 }
