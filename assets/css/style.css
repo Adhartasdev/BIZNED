@@ -224,6 +224,7 @@ html  {
 }
 /* City-cards*/
 #card-spacer {
+   padding-left: 8%;
     margin-bottom:100px;
 }
 
