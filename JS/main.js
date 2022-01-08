@@ -6,10 +6,21 @@ function initMap() {
     mapId: '589c5b3a2920d2e2'
     });
 
- new google.maps.Marker({
+ const marker = new google.maps.Marker({
     position: {lat: 52.33718138155934, lng: 4.873088734208704},
     map,
     title: "Zuidas Business Center",
     });
+
+ const infowindow = new google.maps.InfoWindow({
+    content: "Zuidas Business Center",
+     });
+
+     marker.addListener("click", () => {
+        infowindow.open({
+          anchor: marker,
+          map,
+          shouldFocus: false,
+        });
 }
 
