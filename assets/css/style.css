@@ -291,3 +291,8 @@ html  {
     margin-left: 5%;
 }
 
+/* MAP */
+
+#map {
+    height: 60vh;
+}
