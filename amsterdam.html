@@ -25,7 +25,7 @@
     <Header id="top-page">
         <nav class="navbar navbar-expand-lg navbar-light fixed-top padding-nav shadow-sm">
             <div class="container-fluid">
-                <a class="navbar-brand bold-brand" id="bold-brand" href="#top-page">BIZNED</a>
+                <a class="navbar-brand bold-brand" id="bold-brand" href="index.html">BIZNED</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -33,23 +33,38 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active navlink-kick" aria-current="page" href="#top-page">Home</a>
+                            <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#about-anchor">About</a>
+                            <a class="nav-link" href="about.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#explore-anchor">Explore Cities</a>
+                            <a class="nav-link active navlink-kick" aria-current="page" href="#top-page">Amsterdam</a>
                         </li>
                         <li class="nav-item">
-                            <a href="/BIZNED/contact.html" class="btn btn-primary btn-m active override-color"
-                                role="button" aria-pressed="true">Contact</a>
+                            <a class="nav-link" href="hague.html">The Hague</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="rotterdam.html">Rotterdam</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="btn btn-primary btn-m active override-color" role="button"
+                                aria-pressed="true">Contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </Header>
+    <!-- ------------------------------------------------------------------------- Hero Intro -->
+    <section class="section-layout">
+        <div class="container-fluid heroBizned col-12">
+            <div class="row heroContents">
+                <h1>BIZNED</h1>
+                <p>ALL YOU NEED FOR AMSTERDAM</p>
+            </div>
+        </div>
+    </section>
 
     <div id="map"></div>
     <!-------------------------------------------Footer-->
@@ -70,8 +85,8 @@
     </footer>
     <script src="JS/main.js"></script>
     <script async
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBis40MMRh3sZgD64HRtRZ1lPe-kxz4dQ0&callback=initMap">
-</script>
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBis40MMRh3sZgD64HRtRZ1lPe-kxz4dQ0&callback=initMap">
+        </script>
 </body>
 
 </html>

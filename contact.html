@@ -30,7 +30,7 @@
     <Header id="top-page">
         <nav class="navbar navbar-expand-lg navbar-light fixed-top padding-nav shadow-sm">
             <div class="container-fluid">
-                <a class="navbar-brand bold-brand" id="bold-brand" href="#top-page">BIZNED</a>
+                <a class="navbar-brand bold-brand" id="bold-brand" href="index.html">BIZNED</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -38,16 +38,22 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active navlink-kick" aria-current="page" href="#top-page">Home</a>
+                            <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#about-anchor">About</a>
+                            <a class="nav-link" href="about.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#explore-anchor">Explore Cities</a>
+                            <a class="nav-link" href="amsterdam.html">Amsterdam</a>
                         </li>
                         <li class="nav-item">
-                            <a href="/BIZNED/contact.html" class="btn btn-primary btn-m active override-color" role="button"
+                            <a class="nav-link" href="hague.html">The Hague</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="rotterdam.html">Rotterdam</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#top-page" class="btn btn-primary btn-m active override-color" role="button"
                                 aria-pressed="true">Contact</a>
                         </li>
                     </ul>
@@ -55,14 +61,18 @@
             </div>
         </nav>
     </Header>
+    <!-- ------------------------------------------------------------------------- Hero Intro -->
+    <section class="section-layout">
+        <div class="container-fluid heroBizned col-12">
+            <div class="row heroContents">
+                <h1>CONTACT US</h1>
+            </div>
+        </div>
+    </section>
 
     <section>
         <div class="container mx-auto" id="contact-anchor">
             <div class="row">
-                <div class="col-12 contact-title">
-                    <h1>Contact us</h1>
-                    <p> Please reach out to us for any inquiries you might have regarding BIZNED</p>
-                </div>
                 <form onsubmit="return sendMail(this);" class="row g-3 mx-auto" style="width: 80%;" id="contactino">
                     <div class="col">
                         <label for="Firstname" class="form-label">First Name</label>

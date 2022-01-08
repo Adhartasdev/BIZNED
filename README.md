@@ -220,3 +220,7 @@ The Photos used in this website were obtained from unsplash and the credits are 
 - [Photo by MANIKYAM Mahi on Unsplash](https://unsplash.com/photos/E55Rwc47mnk)
 - [Photo by Frédéric Paulussen on Unsplash](https://unsplash.com/photos/XHk0Se67H14)
 - [Free wallpaper obtained from here...](https://www.wallpaperflare.com/search?wallpaper=zuidas)
+- [Photo by Miles Vanderlooven on Unsplash](https://unsplash.com/photos/t-j22ysiAL8)
+- [Photo by Michael Fousert on Unsplash](https://unsplash.com/photos/bNovwnW0RXw)
+- [Photo by Azhar J on Unsplash](https://unsplash.com/photos/t2hgHV1R7_g)
+
