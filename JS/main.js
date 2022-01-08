@@ -5,4 +5,4 @@ function initMap() {
     zoom: 8,
     mapId: '589c5b3a2920d2e2'
     });
-};
+}
