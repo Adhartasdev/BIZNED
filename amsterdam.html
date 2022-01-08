@@ -19,7 +19,6 @@
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <title>Amsterdam</title>
 </head>
-
 <body>
     <!------------------------------------------- Navbar is Bootstrap component-->
     <Header id="top-page">
@@ -65,7 +64,21 @@
             </div>
         </div>
     </section>
-
+    <section>
+        <div>
+            <h1 class="center padding-bottom"> 
+                Choose one of our places below and we will orient you accordingly in Amsterdam
+            </h1>
+        </div>
+        <div>
+            <button type="button" class="btn btn-outline-primary" id="hotel">Hotels</button>
+            <button type="button" class="btn btn-outline-primary">ATMs</button>
+            <button type="button" class="btn btn-outline-primary">Train Stations</button>
+            <button type="button" class="btn btn-outline-primary">Banks</button>
+            <button type="button" class="btn btn-outline-primary">Taxi Stand</button>
+            <button type="button" class="btn btn-outline-primary">World trade center</button>
+        </div>
+    </section>
     <div id="map"></div>
     <!-------------------------------------------Footer-->
     <footer>
@@ -83,10 +96,10 @@
             </div>
         </div>
     </footer>
-    <script src="JS/main.js"></script>
+    <script src="JS/amsterdam.js"></script>
     <script async
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBis40MMRh3sZgD64HRtRZ1lPe-kxz4dQ0&callback=initMap">
-        </script>
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBis40MMRh3sZgD64HRtRZ1lPe-kxz4dQ0&libraries=places&callback=initMap">
+    </script>
 </body>
 
 </html>
